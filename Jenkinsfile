@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PYTHON = 'C:\\Users\\Dell\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe'
+        PYTHON = 'C:\\Users\\saksh\\AppData\\Local\\Programs\\Python\\Python310\\python.exe'
     }
     stages {
         stage('Install Dependencies') {
